@@ -1,0 +1,24 @@
+#lang_sel ul {
+    display: none;
+    list-style-type: none;
+}
+
+#lang_sel:hover ul {
+    display: block;
+}
+
+#lang_sel>ul>li>ul li:last-child {
+    margin-bottom: 0 !important;
+}
+
+#lang_sel>ul>li>ul li:first-child {
+    margin-top: 0 !important;
+}
+
+.z_index_top {position:relative; z-index:111;}
+
+@media only screen and (max-width: 600px) {
+    .header_top{
+        display: none !important;
+    }
+}
